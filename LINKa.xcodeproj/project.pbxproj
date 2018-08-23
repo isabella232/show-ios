@@ -13,9 +13,13 @@
 		A2987394212E770A008D2009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2987393212E770A008D2009 /* Assets.xcassets */; };
 		A2987397212E770A008D2009 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2987395212E770A008D2009 /* LaunchScreen.storyboard */; };
 		A29873A4212E7FA0008D2009 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A29873A6212E7FA0008D2009 /* Localizable.strings */; };
+		CDBF4D86F4E4ADF7468F5C2F /* Pods_LINKa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31646D6E5F9D777A71972980 /* Pods_LINKa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31646D6E5F9D777A71972980 /* Pods_LINKa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LINKa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		469E731B3994A53AB9C635A9 /* Pods-LINKa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LINKa.release.xcconfig"; path = "Pods/Target Support Files/Pods-LINKa/Pods-LINKa.release.xcconfig"; sourceTree = "<group>"; };
+		6FADAE7CAF1F4304FE1D3C13 /* Pods-LINKa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LINKa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LINKa/Pods-LINKa.debug.xcconfig"; sourceTree = "<group>"; };
 		A2987389212E7703008D2009 /* LINKa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LINKa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A298738C212E7703008D2009 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A298738E212E7703008D2009 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,17 +36,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDBF4D86F4E4ADF7468F5C2F /* Pods_LINKa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		879BE177664CB452AEDED0BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FADAE7CAF1F4304FE1D3C13 /* Pods-LINKa.debug.xcconfig */,
+				469E731B3994A53AB9C635A9 /* Pods-LINKa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A2987380212E7702008D2009 = {
 			isa = PBXGroup;
 			children = (
 				A298738B212E7703008D2009 /* LINKa */,
 				A298738A212E7703008D2009 /* Products */,
+				879BE177664CB452AEDED0BA /* Pods */,
+				C48171256C2D176E0E12296B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +100,14 @@
 			path = Scenes;
 			sourceTree = "<group>";
 		};
+		C48171256C2D176E0E12296B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31646D6E5F9D777A71972980 /* Pods_LINKa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A298739B212E770A008D2009 /* Build configuration list for PBXNativeTarget "LINKa" */;
 			buildPhases = (
+				2DCD633811CC71619852A621 /* [CP] Check Pods Manifest.lock */,
 				A2987385212E7703008D2009 /* Sources */,
 				A2987386212E7703008D2009 /* Frameworks */,
 				A2987387212E7703008D2009 /* Resources */,
+				C061778723DD7CC4735C5445 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -150,6 +176,59 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DCD633811CC71619852A621 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LINKa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C061778723DD7CC4735C5445 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LINKa/Pods-LINKa-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SegueKit/SegueKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SegueKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LINKa/Pods-LINKa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A2987385212E7703008D2009 /* Sources */ = {
@@ -310,6 +389,7 @@
 		};
 		A298739C212E770A008D2009 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FADAE7CAF1F4304FE1D3C13 /* Pods-LINKa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -328,6 +408,7 @@
 		};
 		A298739D212E770A008D2009 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 469E731B3994A53AB9C635A9 /* Pods-LINKa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
