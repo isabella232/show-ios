@@ -54,14 +54,30 @@
 		A298738B212E7703008D2009 /* LINKa */ = {
 			isa = PBXGroup;
 			children = (
+				A29873A1212E7EEB008D2009 /* Scenes */,
+				A298739E212E774D008D2009 /* Resources */,
 				A298738C212E7703008D2009 /* AppDelegate.swift */,
-				A298738E212E7703008D2009 /* ViewController.swift */,
-				A2987390212E7703008D2009 /* Main.storyboard */,
-				A2987393212E770A008D2009 /* Assets.xcassets */,
-				A2987395212E770A008D2009 /* LaunchScreen.storyboard */,
-				A2987398212E770A008D2009 /* Info.plist */,
 			);
 			path = LINKa;
+			sourceTree = "<group>";
+		};
+		A298739E212E774D008D2009 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2987398212E770A008D2009 /* Info.plist */,
+				A2987393212E770A008D2009 /* Assets.xcassets */,
+				A2987395212E770A008D2009 /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A29873A1212E7EEB008D2009 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A298738E212E7703008D2009 /* ViewController.swift */,
+				A2987390212E7703008D2009 /* Main.storyboard */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
