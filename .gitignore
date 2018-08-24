@@ -1,0 +1,336 @@
+Podfile.lock
+Pods/Manifest.lock
+Pods/Alamofire/LICENSE
+Pods/Alamofire/README.md
+Pods/Alamofire/Source/AFError.swift
+Pods/Alamofire/Source/Alamofire.swift
+Pods/Alamofire/Source/DispatchQueue+Alamofire.swift
+Pods/Alamofire/Source/MultipartFormData.swift
+Pods/Alamofire/Source/NetworkReachabilityManager.swift
+Pods/Alamofire/Source/Notifications.swift
+Pods/Alamofire/Source/ParameterEncoding.swift
+Pods/Alamofire/Source/Request.swift
+Pods/Alamofire/Source/Response.swift
+Pods/Alamofire/Source/ResponseSerialization.swift
+Pods/Alamofire/Source/Result.swift
+Pods/Alamofire/Source/ServerTrustPolicy.swift
+Pods/Alamofire/Source/SessionDelegate.swift
+Pods/Alamofire/Source/SessionManager.swift
+Pods/Alamofire/Source/TaskDelegate.swift
+Pods/Alamofire/Source/Timeline.swift
+Pods/Alamofire/Source/Validation.swift
+Pods/AlamofireObjectMapper/LICENSE
+Pods/AlamofireObjectMapper/README.md
+Pods/AlamofireObjectMapper/AlamofireObjectMapper/AlamofireObjectMapper.swift
+Pods/IQKeyboardManagerSwift/LICENSE.md
+Pods/IQKeyboardManagerSwift/README.md
+Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQKeyboardManager.swift
+Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift
+Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift
+Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift
+Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift
+Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift
+Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift
+Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift
+Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift
+Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQTextView/IQTextView.swift
+Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift
+Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift
+Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift
+Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift
+Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift
+Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift
+Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle/IQButtonBarArrowDown@2x.png
+Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle/IQButtonBarArrowDown@3x.png
+Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle/IQButtonBarArrowLeft@2x.png
+Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle/IQButtonBarArrowLeft@3x.png
+Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle/IQButtonBarArrowRight@2x.png
+Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle/IQButtonBarArrowRight@3x.png
+Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle/IQButtonBarArrowUp@2x.png
+Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle/IQButtonBarArrowUp@3x.png
+Pods/ObjectMapper/LICENSE
+Pods/ObjectMapper/README-CN.md
+Pods/ObjectMapper/Sources/CustomDateFormatTransform.swift
+Pods/ObjectMapper/Sources/DataTransform.swift
+Pods/ObjectMapper/Sources/DateFormatterTransform.swift
+Pods/ObjectMapper/Sources/DateTransform.swift
+Pods/ObjectMapper/Sources/DictionaryTransform.swift
+Pods/ObjectMapper/Sources/EnumOperators.swift
+Pods/ObjectMapper/Sources/EnumTransform.swift
+Pods/ObjectMapper/Sources/FromJSON.swift
+Pods/ObjectMapper/Sources/HexColorTransform.swift
+Pods/ObjectMapper/Sources/ImmutableMappable.swift
+Pods/ObjectMapper/Sources/IntegerOperators.swift
+Pods/ObjectMapper/Sources/ISO8601DateTransform.swift
+Pods/ObjectMapper/Sources/Map.swift
+Pods/ObjectMapper/Sources/MapError.swift
+Pods/ObjectMapper/Sources/Mappable.swift
+Pods/ObjectMapper/Sources/Mapper.swift
+Pods/ObjectMapper/Sources/NSDecimalNumberTransform.swift
+Pods/ObjectMapper/Sources/Operators.swift
+Pods/ObjectMapper/Sources/ToJSON.swift
+Pods/ObjectMapper/Sources/TransformOf.swift
+Pods/ObjectMapper/Sources/TransformOperators.swift
+Pods/ObjectMapper/Sources/TransformType.swift
+Pods/ObjectMapper/Sources/URLTransform.swift
+Pods/Pods.xcodeproj/project.pbxproj
+Pods/Pods.xcodeproj/xcuserdata/evanbutler.xcuserdatad/xcschemes/Alamofire.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/evanbutler.xcuserdatad/xcschemes/AlamofireObjectMapper.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/evanbutler.xcuserdatad/xcschemes/IQKeyboardManagerSwift.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/evanbutler.xcuserdatad/xcschemes/ObjectMapper.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/evanbutler.xcuserdatad/xcschemes/Pods-LINKa.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/evanbutler.xcuserdatad/xcschemes/R.swift.Library.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/evanbutler.xcuserdatad/xcschemes/RxAlamofire.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/evanbutler.xcuserdatad/xcschemes/RxSwift.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/evanbutler.xcuserdatad/xcschemes/SegueKit.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/evanbutler.xcuserdatad/xcschemes/xcschememanagement.plist
+Pods/R.swift/License
+Pods/R.swift/rswift
+Pods/R.swift.Library/License
+Pods/R.swift.Library/Readme.md
+Pods/R.swift.Library/Library/Core/ColorPaletteItemResource.swift
+Pods/R.swift.Library/Library/Core/ColorResource.swift
+Pods/R.swift.Library/Library/Core/FileResource.swift
+Pods/R.swift.Library/Library/Core/FontResource.swift
+Pods/R.swift.Library/Library/Core/Identifier.swift
+Pods/R.swift.Library/Library/Core/ImageResource.swift
+Pods/R.swift.Library/Library/Core/NibResource.swift
+Pods/R.swift.Library/Library/Core/ReuseIdentifierProtocol.swift
+Pods/R.swift.Library/Library/Core/StoryboardResource.swift
+Pods/R.swift.Library/Library/Core/StoryboardSegueIdentifierProtocol.swift
+Pods/R.swift.Library/Library/Core/StoryboardViewControllerResource.swift
+Pods/R.swift.Library/Library/Core/StringResource.swift
+Pods/R.swift.Library/Library/Core/Validatable.swift
+Pods/R.swift.Library/Library/Foundation/Bundle+FileResource.swift
+Pods/R.swift.Library/Library/Foundation/Data+FileResource.swift
+Pods/R.swift.Library/Library/UIKit/ColorPaletteItemResource+UIKit.swift
+Pods/R.swift.Library/Library/UIKit/NibResource+UIKit.swift
+Pods/R.swift.Library/Library/UIKit/StoryboardResourceWithInitialController+UIKit.swift
+Pods/R.swift.Library/Library/UIKit/TypedStoryboardSegueInfo+UIStoryboardSegue.swift
+Pods/R.swift.Library/Library/UIKit/UICollectionView+ReuseIdentifierProtocol.swift
+Pods/R.swift.Library/Library/UIKit/UIColor+ColorResource.swift
+Pods/R.swift.Library/Library/UIKit/UIFont+FontResource.swift
+Pods/R.swift.Library/Library/UIKit/UIImage+ImageResource.swift
+Pods/R.swift.Library/Library/UIKit/UINib+NibResource.swift
+Pods/R.swift.Library/Library/UIKit/UIStoryboard+StoryboardResource.swift
+Pods/R.swift.Library/Library/UIKit/UIStoryboard+StoryboardViewControllerResource.swift
+Pods/R.swift.Library/Library/UIKit/UITableView+ReuseIdentifierProtocol.swift
+Pods/R.swift.Library/Library/UIKit/UIViewController+NibResource.swift
+Pods/R.swift.Library/Library/UIKit/UIViewController+StoryboardSegueIdentifierProtocol.swift
+Pods/RxAlamofire/LICENSE.md
+Pods/RxAlamofire/README.md
+Pods/RxAlamofire/Sources/RxAlamofire.swift
+Pods/RxSwift/LICENSE.md
+Pods/RxSwift/README.md
+Pods/RxSwift/Platform/DeprecationWarner.swift
+Pods/RxSwift/Platform/DispatchQueue+Extensions.swift
+Pods/RxSwift/Platform/Platform.Darwin.swift
+Pods/RxSwift/Platform/Platform.Linux.swift
+Pods/RxSwift/Platform/RecursiveLock.swift
+Pods/RxSwift/Platform/DataStructures/Bag.swift
+Pods/RxSwift/Platform/DataStructures/InfiniteSequence.swift
+Pods/RxSwift/Platform/DataStructures/PriorityQueue.swift
+Pods/RxSwift/Platform/DataStructures/Queue.swift
+Pods/RxSwift/RxSwift/AnyObserver.swift
+Pods/RxSwift/RxSwift/Cancelable.swift
+Pods/RxSwift/RxSwift/ConnectableObservableType.swift
+Pods/RxSwift/RxSwift/Deprecated.swift
+Pods/RxSwift/RxSwift/Disposable.swift
+Pods/RxSwift/RxSwift/Errors.swift
+Pods/RxSwift/RxSwift/Event.swift
+Pods/RxSwift/RxSwift/GroupedObservable.swift
+Pods/RxSwift/RxSwift/ImmediateSchedulerType.swift
+Pods/RxSwift/RxSwift/Observable.swift
+Pods/RxSwift/RxSwift/ObservableConvertibleType.swift
+Pods/RxSwift/RxSwift/ObservableType+Extensions.swift
+Pods/RxSwift/RxSwift/ObservableType.swift
+Pods/RxSwift/RxSwift/ObserverType.swift
+Pods/RxSwift/RxSwift/Reactive.swift
+Pods/RxSwift/RxSwift/Rx.swift
+Pods/RxSwift/RxSwift/RxMutableBox.swift
+Pods/RxSwift/RxSwift/SchedulerType.swift
+Pods/RxSwift/RxSwift/Concurrency/AsyncLock.swift
+Pods/RxSwift/RxSwift/Concurrency/Lock.swift
+Pods/RxSwift/RxSwift/Concurrency/LockOwnerType.swift
+Pods/RxSwift/RxSwift/Concurrency/SynchronizedDisposeType.swift
+Pods/RxSwift/RxSwift/Concurrency/SynchronizedOnType.swift
+Pods/RxSwift/RxSwift/Concurrency/SynchronizedUnsubscribeType.swift
+Pods/RxSwift/RxSwift/Disposables/AnonymousDisposable.swift
+Pods/RxSwift/RxSwift/Disposables/BinaryDisposable.swift
+Pods/RxSwift/RxSwift/Disposables/BooleanDisposable.swift
+Pods/RxSwift/RxSwift/Disposables/CompositeDisposable.swift
+Pods/RxSwift/RxSwift/Disposables/Disposables.swift
+Pods/RxSwift/RxSwift/Disposables/DisposeBag.swift
+Pods/RxSwift/RxSwift/Disposables/DisposeBase.swift
+Pods/RxSwift/RxSwift/Disposables/NopDisposable.swift
+Pods/RxSwift/RxSwift/Disposables/RefCountDisposable.swift
+Pods/RxSwift/RxSwift/Disposables/ScheduledDisposable.swift
+Pods/RxSwift/RxSwift/Disposables/SerialDisposable.swift
+Pods/RxSwift/RxSwift/Disposables/SingleAssignmentDisposable.swift
+Pods/RxSwift/RxSwift/Disposables/SubscriptionDisposable.swift
+Pods/RxSwift/RxSwift/Extensions/Bag+Rx.swift
+Pods/RxSwift/RxSwift/Extensions/String+Rx.swift
+Pods/RxSwift/RxSwift/Observables/AddRef.swift
+Pods/RxSwift/RxSwift/Observables/Amb.swift
+Pods/RxSwift/RxSwift/Observables/AsMaybe.swift
+Pods/RxSwift/RxSwift/Observables/AsSingle.swift
+Pods/RxSwift/RxSwift/Observables/Buffer.swift
+Pods/RxSwift/RxSwift/Observables/Catch.swift
+Pods/RxSwift/RxSwift/Observables/CombineLatest+arity.swift
+Pods/RxSwift/RxSwift/Observables/CombineLatest+Collection.swift
+Pods/RxSwift/RxSwift/Observables/CombineLatest.swift
+Pods/RxSwift/RxSwift/Observables/Concat.swift
+Pods/RxSwift/RxSwift/Observables/Create.swift
+Pods/RxSwift/RxSwift/Observables/Debounce.swift
+Pods/RxSwift/RxSwift/Observables/Debug.swift
+Pods/RxSwift/RxSwift/Observables/DefaultIfEmpty.swift
+Pods/RxSwift/RxSwift/Observables/Deferred.swift
+Pods/RxSwift/RxSwift/Observables/Delay.swift
+Pods/RxSwift/RxSwift/Observables/DelaySubscription.swift
+Pods/RxSwift/RxSwift/Observables/Dematerialize.swift
+Pods/RxSwift/RxSwift/Observables/DistinctUntilChanged.swift
+Pods/RxSwift/RxSwift/Observables/Do.swift
+Pods/RxSwift/RxSwift/Observables/ElementAt.swift
+Pods/RxSwift/RxSwift/Observables/Empty.swift
+Pods/RxSwift/RxSwift/Observables/Enumerated.swift
+Pods/RxSwift/RxSwift/Observables/Error.swift
+Pods/RxSwift/RxSwift/Observables/Filter.swift
+Pods/RxSwift/RxSwift/Observables/First.swift
+Pods/RxSwift/RxSwift/Observables/Generate.swift
+Pods/RxSwift/RxSwift/Observables/GroupBy.swift
+Pods/RxSwift/RxSwift/Observables/Just.swift
+Pods/RxSwift/RxSwift/Observables/Map.swift
+Pods/RxSwift/RxSwift/Observables/Materialize.swift
+Pods/RxSwift/RxSwift/Observables/Merge.swift
+Pods/RxSwift/RxSwift/Observables/Multicast.swift
+Pods/RxSwift/RxSwift/Observables/Never.swift
+Pods/RxSwift/RxSwift/Observables/ObserveOn.swift
+Pods/RxSwift/RxSwift/Observables/Optional.swift
+Pods/RxSwift/RxSwift/Observables/Producer.swift
+Pods/RxSwift/RxSwift/Observables/Range.swift
+Pods/RxSwift/RxSwift/Observables/Reduce.swift
+Pods/RxSwift/RxSwift/Observables/Repeat.swift
+Pods/RxSwift/RxSwift/Observables/RetryWhen.swift
+Pods/RxSwift/RxSwift/Observables/Sample.swift
+Pods/RxSwift/RxSwift/Observables/Scan.swift
+Pods/RxSwift/RxSwift/Observables/Sequence.swift
+Pods/RxSwift/RxSwift/Observables/ShareReplayScope.swift
+Pods/RxSwift/RxSwift/Observables/SingleAsync.swift
+Pods/RxSwift/RxSwift/Observables/Sink.swift
+Pods/RxSwift/RxSwift/Observables/Skip.swift
+Pods/RxSwift/RxSwift/Observables/SkipUntil.swift
+Pods/RxSwift/RxSwift/Observables/SkipWhile.swift
+Pods/RxSwift/RxSwift/Observables/StartWith.swift
+Pods/RxSwift/RxSwift/Observables/SubscribeOn.swift
+Pods/RxSwift/RxSwift/Observables/Switch.swift
+Pods/RxSwift/RxSwift/Observables/SwitchIfEmpty.swift
+Pods/RxSwift/RxSwift/Observables/Take.swift
+Pods/RxSwift/RxSwift/Observables/TakeLast.swift
+Pods/RxSwift/RxSwift/Observables/TakeUntil.swift
+Pods/RxSwift/RxSwift/Observables/TakeWhile.swift
+Pods/RxSwift/RxSwift/Observables/Throttle.swift
+Pods/RxSwift/RxSwift/Observables/Timeout.swift
+Pods/RxSwift/RxSwift/Observables/Timer.swift
+Pods/RxSwift/RxSwift/Observables/ToArray.swift
+Pods/RxSwift/RxSwift/Observables/Using.swift
+Pods/RxSwift/RxSwift/Observables/Window.swift
+Pods/RxSwift/RxSwift/Observables/WithLatestFrom.swift
+Pods/RxSwift/RxSwift/Observables/Zip+arity.swift
+Pods/RxSwift/RxSwift/Observables/Zip+Collection.swift
+Pods/RxSwift/RxSwift/Observables/Zip.swift
+Pods/RxSwift/RxSwift/Observers/AnonymousObserver.swift
+Pods/RxSwift/RxSwift/Observers/ObserverBase.swift
+Pods/RxSwift/RxSwift/Observers/TailRecursiveSink.swift
+Pods/RxSwift/RxSwift/Schedulers/ConcurrentDispatchQueueScheduler.swift
+Pods/RxSwift/RxSwift/Schedulers/ConcurrentMainScheduler.swift
+Pods/RxSwift/RxSwift/Schedulers/CurrentThreadScheduler.swift
+Pods/RxSwift/RxSwift/Schedulers/HistoricalScheduler.swift
+Pods/RxSwift/RxSwift/Schedulers/HistoricalSchedulerTimeConverter.swift
+Pods/RxSwift/RxSwift/Schedulers/MainScheduler.swift
+Pods/RxSwift/RxSwift/Schedulers/OperationQueueScheduler.swift
+Pods/RxSwift/RxSwift/Schedulers/RecursiveScheduler.swift
+Pods/RxSwift/RxSwift/Schedulers/SchedulerServices+Emulation.swift
+Pods/RxSwift/RxSwift/Schedulers/SerialDispatchQueueScheduler.swift
+Pods/RxSwift/RxSwift/Schedulers/VirtualTimeConverterType.swift
+Pods/RxSwift/RxSwift/Schedulers/VirtualTimeScheduler.swift
+Pods/RxSwift/RxSwift/Schedulers/Internal/DispatchQueueConfiguration.swift
+Pods/RxSwift/RxSwift/Schedulers/Internal/InvocableScheduledItem.swift
+Pods/RxSwift/RxSwift/Schedulers/Internal/InvocableType.swift
+Pods/RxSwift/RxSwift/Schedulers/Internal/ScheduledItem.swift
+Pods/RxSwift/RxSwift/Schedulers/Internal/ScheduledItemType.swift
+Pods/RxSwift/RxSwift/Subjects/AsyncSubject.swift
+Pods/RxSwift/RxSwift/Subjects/BehaviorSubject.swift
+Pods/RxSwift/RxSwift/Subjects/PublishSubject.swift
+Pods/RxSwift/RxSwift/Subjects/ReplaySubject.swift
+Pods/RxSwift/RxSwift/Subjects/SubjectType.swift
+Pods/RxSwift/RxSwift/SwiftSupport/SwiftSupport.swift
+Pods/RxSwift/RxSwift/Traits/Completable+AndThen.swift
+Pods/RxSwift/RxSwift/Traits/Completable.swift
+Pods/RxSwift/RxSwift/Traits/Maybe.swift
+Pods/RxSwift/RxSwift/Traits/ObservableType+PrimitiveSequence.swift
+Pods/RxSwift/RxSwift/Traits/PrimitiveSequence+Zip+arity.swift
+Pods/RxSwift/RxSwift/Traits/PrimitiveSequence.swift
+Pods/RxSwift/RxSwift/Traits/Single.swift
+Pods/SegueKit/LICENSE
+Pods/SegueKit/README.md
+Pods/SegueKit/Sources/UIViewController+Segue.swift
+Pods/SegueKit/Sources/UIViewController+Swizzle.h
+Pods/SegueKit/Sources/UIViewController+Swizzle.m
+Pods/Target Support Files/Alamofire/Alamofire-dummy.m
+Pods/Target Support Files/Alamofire/Alamofire-prefix.pch
+Pods/Target Support Files/Alamofire/Alamofire-umbrella.h
+Pods/Target Support Files/Alamofire/Alamofire.modulemap
+Pods/Target Support Files/Alamofire/Alamofire.xcconfig
+Pods/Target Support Files/Alamofire/Info.plist
+Pods/Target Support Files/AlamofireObjectMapper/AlamofireObjectMapper-dummy.m
+Pods/Target Support Files/AlamofireObjectMapper/AlamofireObjectMapper-prefix.pch
+Pods/Target Support Files/AlamofireObjectMapper/AlamofireObjectMapper-umbrella.h
+Pods/Target Support Files/AlamofireObjectMapper/AlamofireObjectMapper.modulemap
+Pods/Target Support Files/AlamofireObjectMapper/AlamofireObjectMapper.xcconfig
+Pods/Target Support Files/AlamofireObjectMapper/Info.plist
+Pods/Target Support Files/IQKeyboardManagerSwift/Info.plist
+Pods/Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-dummy.m
+Pods/Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch
+Pods/Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-umbrella.h
+Pods/Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap
+Pods/Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.xcconfig
+Pods/Target Support Files/ObjectMapper/Info.plist
+Pods/Target Support Files/ObjectMapper/ObjectMapper-dummy.m
+Pods/Target Support Files/ObjectMapper/ObjectMapper-prefix.pch
+Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h
+Pods/Target Support Files/ObjectMapper/ObjectMapper.modulemap
+Pods/Target Support Files/ObjectMapper/ObjectMapper.xcconfig
+Pods/Target Support Files/Pods-LINKa/Info.plist
+Pods/Target Support Files/Pods-LINKa/Pods-LINKa-acknowledgements.markdown
+Pods/Target Support Files/Pods-LINKa/Pods-LINKa-acknowledgements.plist
+Pods/Target Support Files/Pods-LINKa/Pods-LINKa-dummy.m
+Pods/Target Support Files/Pods-LINKa/Pods-LINKa-frameworks.sh
+Pods/Target Support Files/Pods-LINKa/Pods-LINKa-resources.sh
+Pods/Target Support Files/Pods-LINKa/Pods-LINKa-umbrella.h
+Pods/Target Support Files/Pods-LINKa/Pods-LINKa.debug.xcconfig
+Pods/Target Support Files/Pods-LINKa/Pods-LINKa.modulemap
+Pods/Target Support Files/Pods-LINKa/Pods-LINKa.release.xcconfig
+Pods/Target Support Files/R.swift.Library/Info.plist
+Pods/Target Support Files/R.swift.Library/R.swift.Library-dummy.m
+Pods/Target Support Files/R.swift.Library/R.swift.Library-prefix.pch
+Pods/Target Support Files/R.swift.Library/R.swift.Library-umbrella.h
+Pods/Target Support Files/R.swift.Library/R.swift.Library.modulemap
+Pods/Target Support Files/R.swift.Library/R.swift.Library.xcconfig
+Pods/Target Support Files/RxAlamofire/Info.plist
+Pods/Target Support Files/RxAlamofire/RxAlamofire-dummy.m
+Pods/Target Support Files/RxAlamofire/RxAlamofire-prefix.pch
+Pods/Target Support Files/RxAlamofire/RxAlamofire-umbrella.h
+Pods/Target Support Files/RxAlamofire/RxAlamofire.modulemap
+Pods/Target Support Files/RxAlamofire/RxAlamofire.xcconfig
+Pods/Target Support Files/RxSwift/Info.plist
+Pods/Target Support Files/RxSwift/RxSwift-dummy.m
+Pods/Target Support Files/RxSwift/RxSwift-prefix.pch
+Pods/Target Support Files/RxSwift/RxSwift-umbrella.h
+Pods/Target Support Files/RxSwift/RxSwift.modulemap
+Pods/Target Support Files/RxSwift/RxSwift.xcconfig
+Pods/Target Support Files/SegueKit/Info.plist
+Pods/Target Support Files/SegueKit/SegueKit-dummy.m
+Pods/Target Support Files/SegueKit/SegueKit-prefix.pch
+Pods/Target Support Files/SegueKit/SegueKit-umbrella.h
+Pods/Target Support Files/SegueKit/SegueKit.modulemap
+Pods/Target Support Files/SegueKit/SegueKit.xcconfig
