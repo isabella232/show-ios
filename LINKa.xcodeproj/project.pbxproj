@@ -13,6 +13,14 @@
 		A2987394212E770A008D2009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2987393212E770A008D2009 /* Assets.xcassets */; };
 		A2987397212E770A008D2009 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2987395212E770A008D2009 /* LaunchScreen.storyboard */; };
 		A29873A4212E7FA0008D2009 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A29873A6212E7FA0008D2009 /* Localizable.strings */; };
+		A29873AC212FF8A0008D2009 /* CardSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29873AA212FF8A0008D2009 /* CardSelectorViewController.swift */; };
+		A29873AD212FF8A0008D2009 /* CardSelectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A29873AB212FF8A0008D2009 /* CardSelectorViewController.xib */; };
+		A29873B1212FF8F6008D2009 /* FolderSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29873AF212FF8F6008D2009 /* FolderSelectorViewController.swift */; };
+		A29873B2212FF8F6008D2009 /* FolderSelectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A29873B0212FF8F6008D2009 /* FolderSelectorViewController.xib */; };
+		A29873B4212FF95C008D2009 /* UIViewController+Observing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29873B3212FF95C008D2009 /* UIViewController+Observing.swift */; };
+		A29873B82130051B008D2009 /* UIViewController+Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29873B72130051B008D2009 /* UIViewController+Progress.swift */; };
+		A29873BA21300B0F008D2009 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29873B921300B0F008D2009 /* UIViewController+Alert.swift */; };
+		A29873BE21301A4B008D2009 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29873BD21301A4A008D2009 /* R.generated.swift */; };
 		CDBF4D86F4E4ADF7468F5C2F /* Pods_LINKa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31646D6E5F9D777A71972980 /* Pods_LINKa.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,8 +35,15 @@
 		A2987393212E770A008D2009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2987396212E770A008D2009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2987398212E770A008D2009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A29873A7212E7FB5008D2009 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A29873A8212E8083008D2009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A29873AA212FF8A0008D2009 /* CardSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectorViewController.swift; sourceTree = "<group>"; };
+		A29873AB212FF8A0008D2009 /* CardSelectorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardSelectorViewController.xib; sourceTree = "<group>"; };
+		A29873AF212FF8F6008D2009 /* FolderSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderSelectorViewController.swift; sourceTree = "<group>"; };
+		A29873B0212FF8F6008D2009 /* FolderSelectorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FolderSelectorViewController.xib; sourceTree = "<group>"; };
+		A29873B3212FF95C008D2009 /* UIViewController+Observing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Observing.swift"; sourceTree = "<group>"; };
+		A29873B72130051B008D2009 /* UIViewController+Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Progress.swift"; sourceTree = "<group>"; };
+		A29873B921300B0F008D2009 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		A29873BD21301A4A008D2009 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +88,7 @@
 		A298738B212E7703008D2009 /* LINKa */ = {
 			isa = PBXGroup;
 			children = (
+				A29873B5212FF965008D2009 /* Extensions */,
 				A29873A1212E7EEB008D2009 /* Scenes */,
 				A298739E212E774D008D2009 /* Resources */,
 				A298738C212E7703008D2009 /* AppDelegate.swift */,
@@ -86,6 +102,7 @@
 				A2987398212E770A008D2009 /* Info.plist */,
 				A2987393212E770A008D2009 /* Assets.xcassets */,
 				A2987395212E770A008D2009 /* LaunchScreen.storyboard */,
+				A29873BD21301A4A008D2009 /* R.generated.swift */,
 				A29873A6212E7FA0008D2009 /* Localizable.strings */,
 			);
 			name = Resources;
@@ -94,10 +111,48 @@
 		A29873A1212E7EEB008D2009 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				A29873AE212FF8B1008D2009 /* FolderSelector */,
+				A29873A9212FF840008D2009 /* CardSelector */,
 				A298738E212E7703008D2009 /* ViewController.swift */,
 				A2987390212E7703008D2009 /* Main.storyboard */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A29873A9212FF840008D2009 /* CardSelector */ = {
+			isa = PBXGroup;
+			children = (
+				A29873AA212FF8A0008D2009 /* CardSelectorViewController.swift */,
+				A29873AB212FF8A0008D2009 /* CardSelectorViewController.xib */,
+			);
+			path = CardSelector;
+			sourceTree = "<group>";
+		};
+		A29873AE212FF8B1008D2009 /* FolderSelector */ = {
+			isa = PBXGroup;
+			children = (
+				A29873AF212FF8F6008D2009 /* FolderSelectorViewController.swift */,
+				A29873B0212FF8F6008D2009 /* FolderSelectorViewController.xib */,
+			);
+			path = FolderSelector;
+			sourceTree = "<group>";
+		};
+		A29873B5212FF965008D2009 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A29873B6212FFBA0008D2009 /* ViewController */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A29873B6212FFBA0008D2009 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A29873B3212FF95C008D2009 /* UIViewController+Observing.swift */,
+				A29873B72130051B008D2009 /* UIViewController+Progress.swift */,
+				A29873B921300B0F008D2009 /* UIViewController+Alert.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		C48171256C2D176E0E12296B /* Frameworks */ = {
@@ -120,6 +175,7 @@
 				A2987386212E7703008D2009 /* Frameworks */,
 				A2987387212E7703008D2009 /* Resources */,
 				C061778723DD7CC4735C5445 /* [CP] Embed Pods Frameworks */,
+				A29873BC213017C5008D2009 /* Rswift Generate */,
 			);
 			buildRules = (
 			);
@@ -169,6 +225,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2987397212E770A008D2009 /* LaunchScreen.storyboard in Resources */,
+				A29873AD212FF8A0008D2009 /* CardSelectorViewController.xib in Resources */,
+				A29873B2212FF8F6008D2009 /* FolderSelectorViewController.xib in Resources */,
 				A29873A4212E7FA0008D2009 /* Localizable.strings in Resources */,
 				A2987394212E770A008D2009 /* Assets.xcassets in Resources */,
 				A2987392212E7703008D2009 /* Main.storyboard in Resources */,
@@ -196,6 +254,20 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A29873BC213017C5008D2009 /* Rswift Generate */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Rswift Generate";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/LINKa\" > rswift.log";
+		};
 		C061778723DD7CC4735C5445 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -206,6 +278,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
@@ -217,6 +290,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
@@ -235,8 +309,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A29873B4212FF95C008D2009 /* UIViewController+Observing.swift in Sources */,
 				A298738F212E7703008D2009 /* ViewController.swift in Sources */,
+				A29873B1212FF8F6008D2009 /* FolderSelectorViewController.swift in Sources */,
+				A29873BE21301A4B008D2009 /* R.generated.swift in Sources */,
+				A29873B82130051B008D2009 /* UIViewController+Progress.swift in Sources */,
+				A29873AC212FF8A0008D2009 /* CardSelectorViewController.swift in Sources */,
 				A298738D212E7703008D2009 /* AppDelegate.swift in Sources */,
+				A29873BA21300B0F008D2009 /* UIViewController+Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +342,6 @@
 		A29873A6212E7FA0008D2009 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A29873A7212E7FB5008D2009 /* ru */,
 				A29873A8212E8083008D2009 /* Base */,
 			);
 			name = Localizable.strings;
