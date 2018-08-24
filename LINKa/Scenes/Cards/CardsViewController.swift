@@ -1,5 +1,5 @@
 //
-//  CardSelectorViewController.swift
+//  CardsViewController.swift
 //  LINKa
 //
 //  Created by Evan Butler on 24/08/2018.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CardSelectorViewController: UIRxViewController {
+class CardsViewController: UIRxViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()

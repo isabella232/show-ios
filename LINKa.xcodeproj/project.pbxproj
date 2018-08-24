@@ -13,14 +13,22 @@
 		A2987394212E770A008D2009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2987393212E770A008D2009 /* Assets.xcassets */; };
 		A2987397212E770A008D2009 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2987395212E770A008D2009 /* LaunchScreen.storyboard */; };
 		A29873A4212E7FA0008D2009 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A29873A6212E7FA0008D2009 /* Localizable.strings */; };
-		A29873AC212FF8A0008D2009 /* CardSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29873AA212FF8A0008D2009 /* CardSelectorViewController.swift */; };
-		A29873AD212FF8A0008D2009 /* CardSelectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A29873AB212FF8A0008D2009 /* CardSelectorViewController.xib */; };
-		A29873B1212FF8F6008D2009 /* FolderSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29873AF212FF8F6008D2009 /* FolderSelectorViewController.swift */; };
-		A29873B2212FF8F6008D2009 /* FolderSelectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A29873B0212FF8F6008D2009 /* FolderSelectorViewController.xib */; };
+		A29873AC212FF8A0008D2009 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29873AA212FF8A0008D2009 /* CardsViewController.swift */; };
+		A29873AD212FF8A0008D2009 /* CardsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A29873AB212FF8A0008D2009 /* CardsViewController.xib */; };
+		A29873B1212FF8F6008D2009 /* FoldersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29873AF212FF8F6008D2009 /* FoldersViewController.swift */; };
+		A29873B2212FF8F6008D2009 /* FoldersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A29873B0212FF8F6008D2009 /* FoldersViewController.xib */; };
 		A29873B4212FF95C008D2009 /* UIViewController+Observing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29873B3212FF95C008D2009 /* UIViewController+Observing.swift */; };
 		A29873B82130051B008D2009 /* UIViewController+Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29873B72130051B008D2009 /* UIViewController+Progress.swift */; };
 		A29873BA21300B0F008D2009 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29873B921300B0F008D2009 /* UIViewController+Alert.swift */; };
 		A29873BE21301A4B008D2009 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29873BD21301A4A008D2009 /* R.generated.swift */; };
+		A2A05C0721302FC9008AD806 /* CardsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A05C0621302FC9008AD806 /* CardsDataSource.swift */; };
+		A2A05C0B21303212008AD806 /* FlatUnitCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A05C0A21303212008AD806 /* FlatUnitCollectionViewDataSource.swift */; };
+		A2A05C0D21303231008AD806 /* UnitCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A05C0C21303231008AD806 /* UnitCollectionViewDataSource.swift */; };
+		A2A05C1321303280008AD806 /* UICollectionViewCellUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A05C1221303280008AD806 /* UICollectionViewCellUnit.swift */; };
+		A2A05C162130336A008AD806 /* FillableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A05C152130336A008AD806 /* FillableProtocol.swift */; };
+		A2A05C1821303379008AD806 /* ReusableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A05C1721303379008AD806 /* ReusableProtocol.swift */; };
+		A2A05C1B213033AC008AD806 /* UICollectionView+RegisterCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A05C1A213033AC008AD806 /* UICollectionView+RegisterCells.swift */; };
+		A2A05C1D213034C7008AD806 /* UIAnyCellUnitProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A05C1C213034C7008AD806 /* UIAnyCellUnitProtocol.swift */; };
 		CDBF4D86F4E4ADF7468F5C2F /* Pods_LINKa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31646D6E5F9D777A71972980 /* Pods_LINKa.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,14 +44,22 @@
 		A2987396212E770A008D2009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2987398212E770A008D2009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A29873A8212E8083008D2009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
-		A29873AA212FF8A0008D2009 /* CardSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectorViewController.swift; sourceTree = "<group>"; };
-		A29873AB212FF8A0008D2009 /* CardSelectorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardSelectorViewController.xib; sourceTree = "<group>"; };
-		A29873AF212FF8F6008D2009 /* FolderSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderSelectorViewController.swift; sourceTree = "<group>"; };
-		A29873B0212FF8F6008D2009 /* FolderSelectorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FolderSelectorViewController.xib; sourceTree = "<group>"; };
+		A29873AA212FF8A0008D2009 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		A29873AB212FF8A0008D2009 /* CardsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardsViewController.xib; sourceTree = "<group>"; };
+		A29873AF212FF8F6008D2009 /* FoldersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldersViewController.swift; sourceTree = "<group>"; };
+		A29873B0212FF8F6008D2009 /* FoldersViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoldersViewController.xib; sourceTree = "<group>"; };
 		A29873B3212FF95C008D2009 /* UIViewController+Observing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Observing.swift"; sourceTree = "<group>"; };
 		A29873B72130051B008D2009 /* UIViewController+Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Progress.swift"; sourceTree = "<group>"; };
 		A29873B921300B0F008D2009 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		A29873BD21301A4A008D2009 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		A2A05C0621302FC9008AD806 /* CardsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsDataSource.swift; sourceTree = "<group>"; };
+		A2A05C0A21303212008AD806 /* FlatUnitCollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatUnitCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		A2A05C0C21303231008AD806 /* UnitCollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		A2A05C1221303280008AD806 /* UICollectionViewCellUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCellUnit.swift; sourceTree = "<group>"; };
+		A2A05C152130336A008AD806 /* FillableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillableProtocol.swift; sourceTree = "<group>"; };
+		A2A05C1721303379008AD806 /* ReusableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableProtocol.swift; sourceTree = "<group>"; };
+		A2A05C1A213033AC008AD806 /* UICollectionView+RegisterCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+RegisterCells.swift"; sourceTree = "<group>"; };
+		A2A05C1C213034C7008AD806 /* UIAnyCellUnitProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAnyCellUnitProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +104,7 @@
 		A298738B212E7703008D2009 /* LINKa */ = {
 			isa = PBXGroup;
 			children = (
+				A2A05C0F2130325B008AD806 /* Utility */,
 				A29873B5212FF965008D2009 /* Extensions */,
 				A29873A1212E7EEB008D2009 /* Scenes */,
 				A298739E212E774D008D2009 /* Resources */,
@@ -111,35 +128,37 @@
 		A29873A1212E7EEB008D2009 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				A29873AE212FF8B1008D2009 /* FolderSelector */,
-				A29873A9212FF840008D2009 /* CardSelector */,
+				A29873AE212FF8B1008D2009 /* Folders */,
+				A29873A9212FF840008D2009 /* Cards */,
 				A298738E212E7703008D2009 /* ViewController.swift */,
 				A2987390212E7703008D2009 /* Main.storyboard */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
 		};
-		A29873A9212FF840008D2009 /* CardSelector */ = {
+		A29873A9212FF840008D2009 /* Cards */ = {
 			isa = PBXGroup;
 			children = (
-				A29873AA212FF8A0008D2009 /* CardSelectorViewController.swift */,
-				A29873AB212FF8A0008D2009 /* CardSelectorViewController.xib */,
+				A29873AA212FF8A0008D2009 /* CardsViewController.swift */,
+				A29873AB212FF8A0008D2009 /* CardsViewController.xib */,
+				A2A05C0621302FC9008AD806 /* CardsDataSource.swift */,
 			);
-			path = CardSelector;
+			path = Cards;
 			sourceTree = "<group>";
 		};
-		A29873AE212FF8B1008D2009 /* FolderSelector */ = {
+		A29873AE212FF8B1008D2009 /* Folders */ = {
 			isa = PBXGroup;
 			children = (
-				A29873AF212FF8F6008D2009 /* FolderSelectorViewController.swift */,
-				A29873B0212FF8F6008D2009 /* FolderSelectorViewController.xib */,
+				A29873AF212FF8F6008D2009 /* FoldersViewController.swift */,
+				A29873B0212FF8F6008D2009 /* FoldersViewController.xib */,
 			);
-			path = FolderSelector;
+			path = Folders;
 			sourceTree = "<group>";
 		};
 		A29873B5212FF965008D2009 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				A2A05C192130338C008AD806 /* CollectionView */,
 				A29873B6212FFBA0008D2009 /* ViewController */,
 			);
 			path = Extensions;
@@ -153,6 +172,59 @@
 				A29873B921300B0F008D2009 /* UIViewController+Alert.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A2A05C0921303202008AD806 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				A2A05C0A21303212008AD806 /* FlatUnitCollectionViewDataSource.swift */,
+				A2A05C0C21303231008AD806 /* UnitCollectionViewDataSource.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		A2A05C0F2130325B008AD806 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A2A05C1421303358008AD806 /* Cells */,
+				A2A05C1021303267008AD806 /* UI */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		A2A05C1021303267008AD806 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A2A05C0921303202008AD806 /* CollectionView */,
+				A2A05C112130326D008AD806 /* Units */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A2A05C112130326D008AD806 /* Units */ = {
+			isa = PBXGroup;
+			children = (
+				A2A05C1221303280008AD806 /* UICollectionViewCellUnit.swift */,
+				A2A05C1C213034C7008AD806 /* UIAnyCellUnitProtocol.swift */,
+			);
+			path = Units;
+			sourceTree = "<group>";
+		};
+		A2A05C1421303358008AD806 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A2A05C152130336A008AD806 /* FillableProtocol.swift */,
+				A2A05C1721303379008AD806 /* ReusableProtocol.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A2A05C192130338C008AD806 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				A2A05C1A213033AC008AD806 /* UICollectionView+RegisterCells.swift */,
+			);
+			path = CollectionView;
 			sourceTree = "<group>";
 		};
 		C48171256C2D176E0E12296B /* Frameworks */ = {
@@ -225,8 +297,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2987397212E770A008D2009 /* LaunchScreen.storyboard in Resources */,
-				A29873AD212FF8A0008D2009 /* CardSelectorViewController.xib in Resources */,
-				A29873B2212FF8F6008D2009 /* FolderSelectorViewController.xib in Resources */,
+				A29873AD212FF8A0008D2009 /* CardsViewController.xib in Resources */,
+				A29873B2212FF8F6008D2009 /* FoldersViewController.xib in Resources */,
 				A29873A4212E7FA0008D2009 /* Localizable.strings in Resources */,
 				A2987394212E770A008D2009 /* Assets.xcassets in Resources */,
 				A2987392212E7703008D2009 /* Main.storyboard in Resources */,
@@ -309,14 +381,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A05C0D21303231008AD806 /* UnitCollectionViewDataSource.swift in Sources */,
 				A29873B4212FF95C008D2009 /* UIViewController+Observing.swift in Sources */,
+				A2A05C1B213033AC008AD806 /* UICollectionView+RegisterCells.swift in Sources */,
 				A298738F212E7703008D2009 /* ViewController.swift in Sources */,
-				A29873B1212FF8F6008D2009 /* FolderSelectorViewController.swift in Sources */,
+				A29873B1212FF8F6008D2009 /* FoldersViewController.swift in Sources */,
 				A29873BE21301A4B008D2009 /* R.generated.swift in Sources */,
 				A29873B82130051B008D2009 /* UIViewController+Progress.swift in Sources */,
-				A29873AC212FF8A0008D2009 /* CardSelectorViewController.swift in Sources */,
+				A29873AC212FF8A0008D2009 /* CardsViewController.swift in Sources */,
+				A2A05C0B21303212008AD806 /* FlatUnitCollectionViewDataSource.swift in Sources */,
+				A2A05C1821303379008AD806 /* ReusableProtocol.swift in Sources */,
+				A2A05C0721302FC9008AD806 /* CardsDataSource.swift in Sources */,
 				A298738D212E7703008D2009 /* AppDelegate.swift in Sources */,
+				A2A05C1321303280008AD806 /* UICollectionViewCellUnit.swift in Sources */,
 				A29873BA21300B0F008D2009 /* UIViewController+Alert.swift in Sources */,
+				A2A05C1D213034C7008AD806 /* UIAnyCellUnitProtocol.swift in Sources */,
+				A2A05C162130336A008AD806 /* FillableProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

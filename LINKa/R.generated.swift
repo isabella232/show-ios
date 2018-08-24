@@ -38,19 +38,19 @@ struct R: Rswift.Validatable {
   
   /// This `R.nib` struct is generated, and contains static references to 2 nibs.
   struct nib {
-    /// Nib `CardSelectorViewController`.
-    static let cardSelectorViewController = _R.nib._CardSelectorViewController()
-    /// Nib `FolderSelectorViewController`.
-    static let folderSelectorViewController = _R.nib._FolderSelectorViewController()
+    /// Nib `CardsViewController`.
+    static let cardsViewController = _R.nib._CardsViewController()
+    /// Nib `FoldersViewController`.
+    static let foldersViewController = _R.nib._FoldersViewController()
     
-    /// `UINib(name: "CardSelectorViewController", in: bundle)`
-    static func cardSelectorViewController(_: Void = ()) -> UIKit.UINib {
-      return UIKit.UINib(resource: R.nib.cardSelectorViewController)
+    /// `UINib(name: "CardsViewController", in: bundle)`
+    static func cardsViewController(_: Void = ()) -> UIKit.UINib {
+      return UIKit.UINib(resource: R.nib.cardsViewController)
     }
     
-    /// `UINib(name: "FolderSelectorViewController", in: bundle)`
-    static func folderSelectorViewController(_: Void = ()) -> UIKit.UINib {
-      return UIKit.UINib(resource: R.nib.folderSelectorViewController)
+    /// `UINib(name: "FoldersViewController", in: bundle)`
+    static func foldersViewController(_: Void = ()) -> UIKit.UINib {
+      return UIKit.UINib(resource: R.nib.foldersViewController)
     }
     
     fileprivate init() {}
@@ -200,9 +200,9 @@ struct R: Rswift.Validatable {
 
 struct _R {
   struct nib {
-    struct _CardSelectorViewController: Rswift.NibResourceType {
+    struct _CardsViewController: Rswift.NibResourceType {
       let bundle = R.hostingBundle
-      let name = "CardSelectorViewController"
+      let name = "CardsViewController"
       
       func firstView(owner ownerOrNil: AnyObject?, options optionsOrNil: [NSObject : AnyObject]? = nil) -> UIKit.UIView? {
         return instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? UIKit.UIView
@@ -211,9 +211,9 @@ struct _R {
       fileprivate init() {}
     }
     
-    struct _FolderSelectorViewController: Rswift.NibResourceType {
+    struct _FoldersViewController: Rswift.NibResourceType {
       let bundle = R.hostingBundle
-      let name = "FolderSelectorViewController"
+      let name = "FoldersViewController"
       
       func firstView(owner ownerOrNil: AnyObject?, options optionsOrNil: [NSObject : AnyObject]? = nil) -> UIKit.UIView? {
         return instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? UIKit.UIView
