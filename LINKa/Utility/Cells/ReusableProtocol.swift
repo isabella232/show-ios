@@ -15,3 +15,9 @@ protocol ReusableProtocol: class {
   
   @objc optional static func xibName() -> String
 }
+
+extension ReusableProtocol where Self: UIView {
+  static func reusableIdentifier() -> String {
+    return String(describing: self)
+  }
+}

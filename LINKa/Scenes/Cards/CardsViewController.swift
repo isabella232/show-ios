@@ -9,8 +9,11 @@
 import UIKit
 
 class CardsViewController: UIRxViewController {
+  
+  @IBOutlet weak private var collectionView: UICollectionView!
 
   override func viewDidLoad() {
     super.viewDidLoad()
+    
   }
 }

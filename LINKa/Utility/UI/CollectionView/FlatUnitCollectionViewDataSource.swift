@@ -22,6 +22,5 @@ class FlatUnitCollectionViewDataSource: UnitCollectionViewDataSource {
   override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
     return units.count
   }
-  
 }
 

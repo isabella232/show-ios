@@ -29,6 +29,8 @@
 		A2A05C1821303379008AD806 /* ReusableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A05C1721303379008AD806 /* ReusableProtocol.swift */; };
 		A2A05C1B213033AC008AD806 /* UICollectionView+RegisterCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A05C1A213033AC008AD806 /* UICollectionView+RegisterCells.swift */; };
 		A2A05C1D213034C7008AD806 /* UIAnyCellUnitProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A05C1C213034C7008AD806 /* UIAnyCellUnitProtocol.swift */; };
+		A2A05C2121303957008AD806 /* CardCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A05C1F21303957008AD806 /* CardCollectionCell.swift */; };
+		A2A05C2221303957008AD806 /* CardCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2A05C2021303957008AD806 /* CardCollectionCell.xib */; };
 		CDBF4D86F4E4ADF7468F5C2F /* Pods_LINKa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31646D6E5F9D777A71972980 /* Pods_LINKa.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +62,8 @@
 		A2A05C1721303379008AD806 /* ReusableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableProtocol.swift; sourceTree = "<group>"; };
 		A2A05C1A213033AC008AD806 /* UICollectionView+RegisterCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+RegisterCells.swift"; sourceTree = "<group>"; };
 		A2A05C1C213034C7008AD806 /* UIAnyCellUnitProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAnyCellUnitProtocol.swift; sourceTree = "<group>"; };
+		A2A05C1F21303957008AD806 /* CardCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionCell.swift; sourceTree = "<group>"; };
+		A2A05C2021303957008AD806 /* CardCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCollectionCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,7 @@
 		A29873A9212FF840008D2009 /* Cards */ = {
 			isa = PBXGroup;
 			children = (
+				A2A05C1E21303937008AD806 /* Cells */,
 				A29873AA212FF8A0008D2009 /* CardsViewController.swift */,
 				A29873AB212FF8A0008D2009 /* CardsViewController.xib */,
 				A2A05C0621302FC9008AD806 /* CardsDataSource.swift */,
@@ -227,6 +232,15 @@
 			path = CollectionView;
 			sourceTree = "<group>";
 		};
+		A2A05C1E21303937008AD806 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A2A05C1F21303957008AD806 /* CardCollectionCell.swift */,
+				A2A05C2021303957008AD806 /* CardCollectionCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		C48171256C2D176E0E12296B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -298,6 +312,7 @@
 			files = (
 				A2987397212E770A008D2009 /* LaunchScreen.storyboard in Resources */,
 				A29873AD212FF8A0008D2009 /* CardsViewController.xib in Resources */,
+				A2A05C2221303957008AD806 /* CardCollectionCell.xib in Resources */,
 				A29873B2212FF8F6008D2009 /* FoldersViewController.xib in Resources */,
 				A29873A4212E7FA0008D2009 /* Localizable.strings in Resources */,
 				A2987394212E770A008D2009 /* Assets.xcassets in Resources */,
@@ -393,6 +408,7 @@
 				A2A05C1821303379008AD806 /* ReusableProtocol.swift in Sources */,
 				A2A05C0721302FC9008AD806 /* CardsDataSource.swift in Sources */,
 				A298738D212E7703008D2009 /* AppDelegate.swift in Sources */,
+				A2A05C2121303957008AD806 /* CardCollectionCell.swift in Sources */,
 				A2A05C1321303280008AD806 /* UICollectionViewCellUnit.swift in Sources */,
 				A29873BA21300B0F008D2009 /* UIViewController+Alert.swift in Sources */,
 				A2A05C1D213034C7008AD806 /* UIAnyCellUnitProtocol.swift in Sources */,
