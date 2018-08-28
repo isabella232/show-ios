@@ -334,3 +334,16 @@ Pods/Target Support Files/SegueKit/SegueKit-prefix.pch
 Pods/Target Support Files/SegueKit/SegueKit-umbrella.h
 Pods/Target Support Files/SegueKit/SegueKit.modulemap
 Pods/Target Support Files/SegueKit/SegueKit.xcconfig
+rswift.log
+Pods/Local Podspecs/R.swift.podspec.json
+Pods/MBProgressHUD/LICENSE
+Pods/MBProgressHUD/MBProgressHUD.h
+Pods/MBProgressHUD/MBProgressHUD.m
+Pods/MBProgressHUD/README.mdown
+Pods/Pods.xcodeproj/xcuserdata/evanbutler.xcuserdatad/xcschemes/MBProgressHUD.xcscheme
+Pods/Target Support Files/MBProgressHUD/Info.plist
+Pods/Target Support Files/MBProgressHUD/MBProgressHUD-dummy.m
+Pods/Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch
+Pods/Target Support Files/MBProgressHUD/MBProgressHUD-umbrella.h
+Pods/Target Support Files/MBProgressHUD/MBProgressHUD.modulemap
+Pods/Target Support Files/MBProgressHUD/MBProgressHUD.xcconfig
